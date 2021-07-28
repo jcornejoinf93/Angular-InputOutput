@@ -20,4 +20,8 @@ export class Hijo1Component {
     this.contadorEnvio.emit(this.contadorHijo);
   }
 
+  actualizarConteo(evento) {
+    this.contadorEnvio.emit(evento);
+  }
+
 }
